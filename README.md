@@ -10,7 +10,7 @@ After editing code, go back at the root of the project and run `black .`
 This will format the code.
 
 # Run the server
-Go at the root of the project.
+Go at the root of the project.<br>
 Run `cd ScrapingArchitecture/`<br>
 Run `python manage.py migrate`<br>
 Run `python manage.py createsuperuser`<br>
