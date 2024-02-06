@@ -15,3 +15,5 @@ Run `cd ScrapingArchitecture/`<br>
 Run `python manage.py migrate`<br>
 Run `python manage.py createsuperuser`<br>
 Run `python manage.py runserver`
+
+Address to use : `http://localhost:8000`
