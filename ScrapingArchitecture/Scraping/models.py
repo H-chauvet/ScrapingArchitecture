@@ -1,9 +1,19 @@
+"""List of imports"""
+
 from django.db import models
 
 # Create your models here.
 
 
 class Article(models.Model):
+    """Article model
+
+    Args:
+        models (Models): This model is for every article retrived on a website
+
+    Returns:
+        None: No return
+    """
 
     Field1 = models.CharField(max_length=100)
     Field2 = models.CharField(max_length=100)
