@@ -11,7 +11,7 @@ This will format the code.
 
 # Run the server
 Go at the root of the project.
-Run `cd ScrapingArchitecture/`
-Run `python manage.py migrate`
-Run `python manage.py createsuperuser`
+Run `cd ScrapingArchitecture/`<br>
+Run `python manage.py migrate`<br>
+Run `python manage.py createsuperuser`<br>
 Run `python manage.py runserver`
