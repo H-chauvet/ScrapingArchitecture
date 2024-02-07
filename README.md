@@ -17,3 +17,11 @@ Run `python manage.py createsuperuser`<br>
 Run `python manage.py runserver`
 
 Address to use : `http://localhost:8000`
+
+# Understand how the project work
+It's easy, there is just 3 folders.<br>
+`config` / `Scraping` / `ScrapyScraper`<br>
+
+`config` is the folder where all the configuration for the django project are.<br>
+`Scraping` is the folder where all the files to setup and adjust the web interface to manage data are.<br>
+`ScrapyScraper` is the folder where all the files to setup the scraper (Programs that are collecting data on website) are.
