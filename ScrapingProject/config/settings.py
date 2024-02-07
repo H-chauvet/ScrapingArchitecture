@@ -39,6 +39,7 @@ INSTALLED_APPS = [
     "django.contrib.staticfiles",
     "Scraping",
     "rest_framework",
+    "ScrapyScraper"
 ]
 
 MIDDLEWARE = [
@@ -51,7 +52,7 @@ MIDDLEWARE = [
     "django.middleware.clickjacking.XFrameOptionsMiddleware",
 ]
 
-ROOT_URLCONF = "ScrapingArchitecture.urls"
+ROOT_URLCONF = "config.urls"
 
 TEMPLATES = [
     {
